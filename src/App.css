@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Montserrat&display=swap");
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  /* height: 40vmin; */
   pointer-events: none;
 }
 
@@ -37,13 +38,9 @@
   }
 }
 
-.App {
-  text-align: center;
-}
-
 header {
   padding: 0px;
-  background-color: #333;
+  /* background-color: #333; */
   color: #fff;
 }
 
@@ -89,6 +86,7 @@ footer {
   background-color: #333;
   color: #fff;
 }
+
 .project-card {
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -104,9 +102,32 @@ footer {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 @media (min-width: 769px) {
   .App {
     max-width: 768px;
     margin: 0 auto;
   }
 }
+
+h1 {
+  font-weight: bold;
+  color: #191970;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 0px 4px rgba(0, 0, 0, 0.3);
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  /* Additional styles for headings */
+}
+
+body,
+p,
+span {
+  font-family: "Montserrat", sans-serif;
+  /* Additional styles for other text elements */
+}
+
+/* More CSS styles */
